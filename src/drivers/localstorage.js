@@ -97,7 +97,7 @@
                     }
 
                     if (callback) {
-                        callback(result);
+                        callback(result,key); 
                     }
 
                     resolve(result);
